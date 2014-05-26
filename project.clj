@@ -1,9 +1,9 @@
-(defproject clj-excel "0.0.1"
+(defproject clj-excel "0.0.2"
   :description "Excel bindings for Clojure, based on Apache POI."
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.apache.poi/poi "3.9"]
-                 [org.apache.poi/poi-ooxml "3.9"]]
-
+  :dependencies [
+                 [org.clojure/clojure "1.5.1"]
+                 [org.apache.poi/poi "3.10-FINAL"]
+                 [org.apache.poi/poi-ooxml "3.10-FINAL"]]
   ;; lein with-profile dev cloverage [cloverage-opts]
   :profiles {:dev {:source-paths ["dev"]
                    :resource-paths ["test-resources"]
