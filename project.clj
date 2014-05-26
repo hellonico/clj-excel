@@ -1,4 +1,4 @@
-(defproject clj-excel "0.0.2"
+(defproject hellonico/clj-excel "0.0.2"
   :description "Excel bindings for Clojure, based on Apache POI."
   :dependencies [
                  [org.clojure/clojure "1.5.1"]
